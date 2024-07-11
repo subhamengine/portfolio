@@ -1,0 +1,35 @@
+  _____  
+ / ____| 
+| (___   
+ \___ \  
+ ____) | 
+|_____/  
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+Developer | 
+Subham Sharma
+Hand crafted design & web development
+
+
+twitter.com/subhamengine
+github.com/subhamengine
+
+_______________________________________________________________________________
+
+TECHNOLOGY | 
+
+React
+Three.js
+Framer Motion
+
+_______________________________________________________________________________
+
+FONTS | 
+
+Gotham
+IPA Gothic Regular
+Hiragino Kaku Gothic W8
