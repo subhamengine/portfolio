@@ -1,6 +1,7 @@
 import profileImgLarge from '~/assets/profile-large.jpg';
 import profileImgPlaceholder from '~/assets/profile-placeholder.jpg';
 import profileImg from '~/assets/profile.jpg';
+import fullphoto from '~/assets/fullphoto.jpg';
 import { Button } from '~/components/button';
 import { DecoderText } from '~/components/decoder-text';
 import { Divider } from '~/components/divider';
@@ -21,16 +22,13 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Subham, currently I live in Bengaluru, India working as a Software Engineer. .
+      My projects include Web Applications, UI animations, and icon illustration. Being
+      comfortable with code allows me to rapidly prototype and validate experiences.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      In my spare time I like to Swim and go to gym. I’m always down for hearing about new
+      projects, so feel free to drop me a line.
     </Text>
   </Fragment>
 );
@@ -82,7 +80,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   reveal
                   delay={100}
                   placeholder={profileImgPlaceholder}
-                  srcSet={`${profileImg} 480w, ${profileImgLarge} 960w`}
+                  srcSet={`${fullphoto} 480w, ${fullphoto} 960w`}
                   width={960}
                   height={1280}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
